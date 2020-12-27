@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class 78</title>
+    </head>
+    <body>
+        <p>
+            <!--how to declare the arrays?-->
+           How to Declare the arrays?
+           <h4 id="declare"></h4>
+        </p>
+        <p>
+            <!--How to fetch the first element of array?-->
+           How to fetch the first element of array?
+           <h4 id="first"></h4>
+        </p>
+        <p>
+            <!--How to fetch the Second element of array?-->
+           How to fetch the Second element of array?
+           <h4 id="Second"></h4>
+        </p>
+        <p>
+            <!--How to fetch the third element of array?-->
+           How to fetch the Third element of array?
+           <h4 id="third"></h4>
+        </p>
+        <p>
+            <!-- How to get the lenght of array?-->
+           How to get the lenght of array?
+           <h4 id="length"></h4>
+        </p>
+        <p>
+            <!-- How to Loop the array?-->
+           How to Loop the array?
+           <h4 id="loop"></h4>
+        </p>
+        <p>
+            <!-- How to add element at the end of array?-->
+           How to add element at the end of array?
+           <h4 id="element"></h4>
+        </p>
+        <p>
+            <!-- How to declare array with alphabets?-->
+           How to declare array with alphabets?
+           <h4 id="declare array"></h4>
+        </p>
+        <p>
+            <!-- How to sort array with alphabets?-->
+           How to sort array with alphabets?
+           <h4 id="sort"></h4>
+        </p>
+        <p>
+            <!-- How to reverse array with alphabets?-->
+           How to reverse array with alphabets?
+           <h4 id="reverse"></h4>
+        </p>
+    
+            
+        <script>
+          var fruit = ["Apple","banana","orange"];
+           console.log (fruit);
+             document.getElementById("declare").innerHTML = fruit;
+
+
+
+
+             var first_fruit = fruit[0];
+             console.log (first_fruit);
+             document.getElementById("first").innerHTML = first_fruit;
+
+
+
+             var second_fruit = fruit[1];
+             console.log (second_fruit);
+             document.getElementById("Second").innerHTML = second_fruit;
+
+
+
+
+             var third_fruit = fruit[2];
+             console.log (third_fruit);
+             document.getElementById("third").innerHTML = third_fruit;
+
+
+
+             var lenght_fruit = fruit.length;
+             console.log (lenght_fruit);
+             document.getElementById("length").innerHTML = lenght_fruit;
+
+
+
+             var loop = "";
+               for (i = 0; i < lenght_fruit; i++){
+                   console.log (fruit[i]);
+               loop = loop + fruit[i] + "<br>";
+               }
+               document.getElementById("loop").innerHTML = loop;
+
+
+               fruit.push("guava");
+               console.log (fruit);
+               document.getElementById("element").innerHTML = fruit;
+
+
+                     var alphabets = ["h","f","j"];
+                     console.log (alphabets);
+                     document.getElementById("declare array").innerHTML = alphabets;
+
+                      alphabets.sort ();
+                     console.log (alphabets);
+                     document.getElementById("sort").innerHTML = alphabets;
+
+
+                     alphabets.reverse ();
+                     console.log (alphabets);
+                     document.getElementById("reverse").innerHTML = alphabets;
+
+
+
+
+
+
+
+
+            
+        </script>
+    </body>
+</html>
